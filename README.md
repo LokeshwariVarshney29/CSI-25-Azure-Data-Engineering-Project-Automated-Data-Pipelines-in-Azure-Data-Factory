@@ -35,7 +35,7 @@
     - Configured using CRON expression
     - Verified against IST for regional accuracy
       
-      Sample - Noon(12:00:00pm) Trigger
+      Trigger - Noon(12:00:00pm)
 ![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f694cb6645af7fa83a7748beca04a611187cf336/snapshots/AzureDataFactory/Pipelines/Trigger%20-%20CountriesDataNoon.png) 
 3. **Customer Data Pipeline (Parent)**
     - Lookup Activity fetches record count from customer table
