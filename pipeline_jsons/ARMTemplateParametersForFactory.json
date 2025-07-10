@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adfdataenggproject"
+        },
+        "LS_ADLSGen2_accountKey": {
+            "value": ""
+        },
+        "LS_SQLDatabase_password": {
+            "value": ""
+        },
+        "LS_ADLSGen2_properties_typeProperties_url": {
+            "value": "https://staproject.dfs.core.windows.net/"
+        },
+        "LS_RestCountriesAPI_properties_typeProperties_url": {
+            "value": "@{linkedService().BaseURL}"
+        },
+        "LS_SQLDatabase_properties_typeProperties_server": {
+            "value": "db-server-dataengg-project.database.windows.net"
+        },
+        "LS_SQLDatabase_properties_typeProperties_database": {
+            "value": "db-dataengg-project"
+        },
+        "LS_SQLDatabase_properties_typeProperties_userName": {
+            "value": "serveradmin"
+        }
+    }
+}
