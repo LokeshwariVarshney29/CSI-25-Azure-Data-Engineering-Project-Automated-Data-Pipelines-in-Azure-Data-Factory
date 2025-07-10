@@ -34,7 +34,7 @@
     - Timings: 12:00 AM IST and 12:00 PM IST
     - Configured using CRON expression
     - Verified against IST for regional accuracy
-      ![]() ![]()
+![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f694cb6645af7fa83a7748beca04a611187cf336/snapshots/AzureDataFactory/Pipelines/Trigger%20-%20CountriesDataNoon.png) ![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f694cb6645af7fa83a7748beca04a611187cf336/snapshots/AzureDataFactory/Pipelines/Trigger%20-%20CountriesDataMidnight.png)
 3. **Customer Data Pipeline (Parent)**
     - Lookup Activity fetches record count from customer table
     - If count > 500, Copy Activity transfers data to ADLS
@@ -45,7 +45,7 @@
     - Executes only if customer count parameter > 600
     - Copies product table data to ADLS
     - Includes parameter validation via If Condition activity
-      ![]()
+![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f694cb6645af7fa83a7748beca04a611187cf336/snapshots/AzureDataFactory/Pipelines/Pipeline%20-%20ProductData.png)
 
 **🧪 Sample Data Generation**
 
@@ -59,7 +59,7 @@
 - Pipeline activity tracking via ADF monitoring
 - Error alerts, retry attempts, and execution histories
 - Trigger logs with duration, status, and timestamp insights
-  ![]()
+![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f694cb6645af7fa83a7748beca04a611187cf336/snapshots/AzureDataFactory/PipelinesRuns%20-%20All.png)
 
 **🧠 Key Features**
 
