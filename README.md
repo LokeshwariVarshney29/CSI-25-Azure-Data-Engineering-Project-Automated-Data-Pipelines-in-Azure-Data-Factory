@@ -28,7 +28,7 @@
     - Copies data using REST connector
     - Saves as {name}.json files in ADLS
     - Includes error handling and retry logic
-      ![]()
+      ![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f9aca870698d8f3c001d3971446eec426d86e77d/snapshots/AzureDataFactory/Pipelines/Pipeline%20-%20CustomerData.png)
 2. **Scheduled Trigger**
     - Frequency: Twice per day
     - Timings: 12:00 AM IST and 12:00 PM IST
