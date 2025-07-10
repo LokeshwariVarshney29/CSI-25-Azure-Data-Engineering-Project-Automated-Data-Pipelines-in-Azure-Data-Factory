@@ -28,7 +28,7 @@
     - Copies data using REST connector
     - Saves as {name}.json files in ADLS
     - Includes error handling and retry logic
-      ![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f9aca870698d8f3c001d3971446eec426d86e77d/snapshots/AzureDataFactory/Pipelines/Pipeline%20-%20CustomerData.png)
+![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/0010d46c4ec90d1349189d3806ed6fd1e33f1521/snapshots/AzureDataFactory/Pipelines/Pipeline%20-%20FetchCountriesData.png)
 2. **Scheduled Trigger**
     - Frequency: Twice per day
     - Timings: 12:00 AM IST and 12:00 PM IST
@@ -40,7 +40,7 @@
     - If count > 500, Copy Activity transfers data to ADLS
     - Uses Execute Pipeline to invoke child pipeline
     - Passes customer count via pipeline parameters
-      ![]()
+![](https://github.com/LokeshwariVarshney29/CSI-25-Azure-Data-Engineering-Project-Automated-Data-Pipelines-in-Azure-Data-Factory/blob/f9aca870698d8f3c001d3971446eec426d86e77d/snapshots/AzureDataFactory/Pipelines/Pipeline%20-%20CustomerData.png)
 4. **Product Data Pipeline (Child)**
     - Executes only if customer count parameter > 600
     - Copies product table data to ADLS
